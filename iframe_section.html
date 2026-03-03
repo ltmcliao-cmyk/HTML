@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframe元素</title>
+    <style>
+        #iframe,
+        #code {
+            margin: auto;
+            width: 90%;
+            padding: 2% 0;
+            /* border: 1px solid gray; */
+        }
+
+        #iframe .wrapper {
+            width: 100%;
+            overflow: auto;
+        }
+
+        #iframe .iframe_info {
+            width: 30%;
+            float: left;
+        }
+
+        #iframe .iframe_content {
+            width: 66%;
+            float: right;
+        }
+
+        iframe {
+            width: 100%;
+        }
+
+        #iframe hr,
+        #code hr {
+            width: 100%;
+            border: 2px dotted rgb(184, 174, 174);
+        }
+    </style>
+</head>
+
+<body>
+    <section id="code">
+        <h3>原始碼輸出</h3>
+        <!-- 請使用特殊字元修改以下原始碼 -->
+        <!-- <iframe src="https://www.ispan.com.tw" width="800" height="600"></iframe> -->
+        <hr>
+    </section>
+
+    <section id="iframe">
+        <div class="wrapper">
+            <div class="iframe_info">
+                <h3>資展國際網站</h3>
+            </div>
+            <div class="iframe_content">
+                <!-- 請在這裡輸入要嵌入的網站 -->
+                <iframe src="https://www.ispan.com.tw" height="400" frameborder="0"></iframe>
+            </div><!--end iframe_content-->
+        </div><!--end wrapper-->
+        <hr>
+    </section>
+
+    <section id="iframe">
+        <div class="wrapper">
+            <div class="iframe_info">
+                <h3>資展國際位置</h3>
+                <p>
+                    地址:台北市復興南路一段390號2樓<br>
+                    電話:(02)6631-6588<br>
+                    網址:<a href="http://www.iSpan.com.tw">www.iSpan.com.tw</a>
+                </p>
+            </div>
+            <div class="iframe_content">
+                <!-- 請在這裡嵌入地圖 -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.640764865885!2d121.41337707538139!3d25.181604977721033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a5310fd027bd%3A0x3dc72455f5ec5e73!2z5reh5rC05ryB5Lq66Iie5Y-w!5e0!3m2!1szh-TW!2stw!4v1772522536213!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div><!--end iframe_content-->
+        </div><!--end wrapper-->
+        <hr>
+    </section>
+
+    <section id="iframe">
+        <div class="wrapper">
+            <div class="iframe_info">
+                <h3>YouTube</h3>
+                <p>宮崎駿水晶音樂</p>
+            </div>
+            <div class="iframe_content">
+                <!-- 請在這裡嵌入YouTube -->
+                <iframe width="943" height="539" src="https://www.youtube.com/embed/O0W_0IKV8zg?list=RDO0W_0IKV8zg" title="【100% 無廣告】宮崎駿風 水晶輕音樂 🎵放鬆身心 靜心冥想 音樂療癒時間" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            </div><!--end liframe_content-->
+        </div><!--end wrapper-->
+        <hr>
+    </section>
+
+</body>
+
+</html>
